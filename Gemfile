@@ -22,9 +22,9 @@ group :test do
   gem 'cucumber-rails-training-wheels'
 end
 
-  gem 'pg', '~> 0.21'
+
 group :production do
-  #gem 'pg'
+   gem 'pg'
 end
 
 # Gems used only for assets and not required
