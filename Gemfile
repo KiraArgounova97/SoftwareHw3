@@ -23,9 +23,9 @@ group :test do
 end
 
   gem 'pg', '~> 0.21'
-#group :production do
+group :production do
   #gem 'pg'
-#end
+end
 
 # Gems used only for assets and not required
 # in production environments by default.
