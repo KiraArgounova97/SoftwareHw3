@@ -13,16 +13,19 @@ group :development, :test do
   gem 'capybara', '2.4.4'
   gem 'launchy'
   gem 'rspec-rails', '3.7.2'
-  gem 'ZenTest', '4.11.0'
-end
+  gem 'ZenTest', '4.11.0' 
 
+end
+ 
 group :test do
   gem 'cucumber-rails', :require => false
   gem 'cucumber-rails-training-wheels'
 end
-group :production do
-  gem 'pg'
-end
+
+  gem 'pg', '~> 0.21'
+#group :production do
+#  gem 'pg'
+#end
 
 # Gems used only for assets and not required
 # in production environments by default.
